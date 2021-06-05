@@ -14,3 +14,7 @@
  8. Se necesita obtener el promedio simple de un estudiante a partir de sus tres notas parciales
  9. Elaborar un algoritmo que solicite el número de respuestas correctas, incorrectas y en blanco, correspondientes a postulantes, y muestre su puntaje final considerando, que por cada respuesta correcta tendrá 4 puntos, respuestas incorrectas tendrá -1 y respuestas en blanco tendrá 0
  10. Elabore un algoritmo que permita calcular el número de CDs necesarios para hacer una copia de seguridad, de la información almacenada en un disco cuya capacidad se conoce. Considerar que el disco duro esta lleno de información, además expresado en gigabyte. Un CD virgen tiene 700 Magabytes de capacidad y un Gigabyt es iugal a 1024 megabyte.
+
+## Idea de diseño de UI 
+
+Acceder en figma con el siguiente link: [Presione aquí para ver la idea de diseño base en figma](https://www.figma.com/file/GlSCfe9LU9ClvrAzoTzeK2/Ejercicios-de-L%C3%B3gica-y-Programacion-UI?node-id=5%3A96)
