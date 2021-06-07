@@ -4,12 +4,26 @@
     --secondary-color: #CAFFD5;
 
     --progress-bar-color: #58C76F;
+
+    --font-size-big: 1.8rem;
+    --font-size-medium: 1.6rem;
+    --font-size-small: 1.3rem;
+
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+.b-font {
+    font-size: var(--font-size-big);
+}
+.m-font {
+    font-size: var(--font-size-medium);
+}
+.s-font {
+    font-size: var(--font-size-small);
 }
 html {
     font-size: 62.5%;
@@ -48,4 +62,8 @@ html {
     grid-column-start: 1;
     grid-column-end:4;
     grid-row: 2;
+}
+.question-container {
+    grid-column-start: 2;
+    grid-row: 1;
 }

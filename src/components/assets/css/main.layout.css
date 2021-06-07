@@ -1,0 +1,20 @@
+.question-container {
+    display: flex;
+    background-color: #E7FBEB;
+    justify-content: center;
+    align-items: center;
+}
+.question-paragraph {
+    background-color: #ffff;
+    width: 65%;
+    height: min-content;
+    max-height: 70%;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: solid 0.5rem var(--primary-color);
+    font-family: Rockwell;
+    vertical-align: center;
+    text-align: justify;
+    
+
+}
