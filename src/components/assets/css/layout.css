@@ -2,6 +2,7 @@
 :root {
     --primary-color: #163B72;
     --secondary-color: #CAFFD5;
+    --tertiary-color: rgba(22, 59, 114, 0.8);
 
     --progress-bar-color: #58C76F;
 
@@ -65,12 +66,17 @@ html {
     display: grid;
     grid-template-columns: 300px auto;
     grid-template-rows: 0.5fr 1fr;
-    background-color: coral;
-    grid-column-start: 1;
+   
+    grid-column-start: 2;
     grid-column-end:4;
     grid-row: 2;
 }
 .question-container {
     grid-column-start: 2;
     grid-row: 1;
+}
+.aside-container {
+    grid-column-start: 1;
+    grid-row: 2;
+   
 }

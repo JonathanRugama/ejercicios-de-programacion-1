@@ -1,0 +1,31 @@
+.aside-container {
+    background-color: var(--tertiary-color);
+    border-bottom: 5px solid white ;
+    z-index: 3;
+    overflow-y: auto;
+}
+.aside-container h2 {
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.questions-list {
+    margin-top: 1rem;
+}
+.questions-list .item-list{
+    background-color: white;
+    margin-top: 1rem;
+    text-align: justify;
+    padding: 0 1rem;
+  
+}
+.questions-list .item-list:hover {
+    border-right: 3px solid var(--progress-bar-color) ;
+}
+.questions-list li a {
+    
+    color: var(--primary-color);
+    
+}
+

@@ -5,6 +5,7 @@ import './components/assets/css/layout.css'
 import MainContainerLayout from './components/layout/main-container.layout';
 import HeaderLayout from './components/layout/header.layout';
 import MainContentLayout from './components/layout/main-content.layout';
+import Aside from './components/layout/aside.layout';
 import FooterLayout from './components/layout/footer.layout';
 import QuestionOne from './components/pages/question-one';
 import QuestionTwo from './components/pages/question-two';
@@ -17,11 +18,13 @@ import QuestionEight from './components/pages/question-eight';
 import QuestionNine from './components/pages/question-nine';
 import QuestionTen from './components/pages/question-ten';
 
+
 function App() {
   return (
     <MainContainerLayout>
       <BrowserRouter>
       <HeaderLayout/>
+      <Aside/>
       <MainContentLayout>
       
           <Switch>
