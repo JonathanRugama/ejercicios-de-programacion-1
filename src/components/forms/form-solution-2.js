@@ -1,6 +1,6 @@
 import React from 'react';
 
-class FormSolution extends React.Component {
+class FormSolutionTwo extends React.Component {
     state ={};
   /*  handleChange = (e) => {
          console.log({name : e.target.name, value : e.target.value}); 
@@ -16,31 +16,22 @@ class FormSolution extends React.Component {
         return(
     <form onSubmit={this.props.onSubmit} className="form-solution" action="">
         <label className="form-solution__item" htmlFor="">
-            <span>Ingrese el número de horas trabajadas</span>
+            <span>Ingresar el numero A</span>
             <input  
             onChange={this.props.onChange}  
             type="text" 
-            placeholder="Horas trabajadas"
-            name="horasTrabajadas"
-            value={this.props.formValues.horasTrabajadas}/>
+            placeholder="Numero A"
+            name="numeroA"
+            value={this.props.formValues.numeroA}/>
         </label>
         <label className="form-solution__item" htmlFor="">
-            <span>Ingrese la tarifa horaria</span>
+            <span>Ingresar el numero B</span>
             <input
             onChange={this.props.onChange} 
             type="text" 
-            placeholder="$ Tarifa horaria"
-            name="tarifaHoraria"
-            value={this.props.formValues.tarifaHoraria}/>
-        </label>
-        <label className="form-solution__item" htmlFor="">
-            <span>Tasa de impuestos</span>
-            <input 
-            onChange={this.props.onChange}
-            type="text" 
-            placeholder="Tasa de impuestos"
-            name="tasaImpuestos"
-            value={this.props.formValues.tasaImpuestos}/>
+            placeholder="Numero B"
+            name="numeroB"
+            value={this.props.formValues.numeroB}/>
         </label>
         <button onClick={this.handleClick}>Calcular</button>
     </form>
@@ -49,4 +40,4 @@ class FormSolution extends React.Component {
 
 }
 
-export default FormSolution
+export default FormSolutionTwo

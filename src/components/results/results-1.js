@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Results = (props) => {
+const ResultsOne = (props) => {
     return(
         <div className="results-container">
             <h2 className="results-title">Resultado</h2>
@@ -29,4 +29,4 @@ const Results = (props) => {
     )
 }
 
-export default Results
+export default ResultsOne

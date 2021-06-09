@@ -1,8 +1,8 @@
 import React from 'react';
-import FormSolution from './form-solution'
-import Results from './results';
+import FormSolutionOne from '../forms/form-solution-1'
+import ResultsOne from '../results/results-1';
 
-class Solution extends React.Component {
+class SolutionOne extends React.Component {
     state = {
         form: {
         horasTrabajadas:'',
@@ -35,22 +35,20 @@ class Solution extends React.Component {
         result = salario - tasaImpuestosxRestar;
         this.setState({resultado: result})
         console.log(`Form was submitted y el resultado es ${result}`)
-
-       
     }
    /*  calculateNetPay = () => {
-       
+
 
         return result;
     } */
     render() {
         return (
             <section className="solution-container">
-                <FormSolution 
+                <FormSolutionOne 
                 onChange={this.handleChange}
                 onSubmit={this.handleSubmit}
                 formValues={this.state.form}/>
-                <Results
+                <ResultsOne
                 horasTrabajadas={this.state.form.horasTrabajadas}
                 tarifaHoraria = {this.state.form.tarifaHoraria}
                 tasaImpuestos = {this.state.form.tasaImpuestos}
@@ -62,4 +60,4 @@ class Solution extends React.Component {
     }
 }
 
-export default Solution
+export default SolutionOne
