@@ -66,7 +66,7 @@ html {
     display: grid;
     grid-template-columns: 300px auto;
     grid-template-rows: 0.5fr 1fr;
-   
+    background: linear-gradient(180deg, rgba(202,255,213,1) 0%, rgba(22,59,114,1) 100%);
     grid-column-start: 2;
     grid-column-end:4;
     grid-row: 2;
@@ -79,4 +79,11 @@ html {
     grid-column-start: 1;
     grid-row: 2;
    
+}
+.solution-container {
+    display: flex;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
 }
