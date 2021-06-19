@@ -17,6 +17,7 @@ import QuestionSeven from './components/pages/question-seven';
 import QuestionEight from './components/pages/question-eight';
 import QuestionNine from './components/pages/question-nine';
 import QuestionTen from './components/pages/question-ten';
+import InitialPage from './components/pages/initial-page';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <MainContentLayout>
       
           <Switch>
+            <Route exact path="/" component={InitialPage}/>
             <Route exact path="/question-1" component={QuestionOne}/>
             <Route exact path="/question-2" component={QuestionTwo}/>
             <Route exact path="/question-3" component={QuestionThree}/>

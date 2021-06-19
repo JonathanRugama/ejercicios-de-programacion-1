@@ -20,9 +20,9 @@
 .img-container {
     display: flex;
     justify-content: center;
-    margin: auto auto;
-    width: 190px;
-    height: 190px;
+    margin: 1.5rem auto;
+    width: 180px;
+    height: 180px;
     background-color: white;
     border-radius: 50%;
     overflow: hidden;
@@ -32,6 +32,7 @@
 }
 .img-container img{
     width: 80%;
+   
     align-self: center;
 }
 
@@ -124,3 +125,43 @@
     border: solid 1px var(--primary-color);
     padding: 0.5rem;
 }
+
+.bubble {
+    width: 80%;
+    background-color: white;
+    position: relative;
+    border-radius: 1rem;
+    margin-left: 20px;
+    height: 85%;
+    box-shadow: var(--box-shadow-config-1);
+    
+}
+
+.bubble:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 40px;
+    margin-left: -110px;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 110px solid #fff;
+}
+.bubble-paragraph {
+    padding: 1rem;
+    font-size: var(--font-size-medium);
+    height: 100%;
+    overflow-y: auto;
+    text-align: justify;
+    color: var(--primary-color);
+    font-family: Rockwell;
+}
+.bubble-list-container{
+    margin-left: 2rem;
+}
+.sub-list-container {
+    margin-left: 1rem;
+}
+
